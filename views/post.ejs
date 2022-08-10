@@ -1,0 +1,53 @@
+<%- include('./includes/header.ejs') %>
+    <section class="connexion">
+        <div class="pageKN">
+          <div class="teteKN">
+           <a href="/views/home.ejs"><img src="icon-left-font.png" alt="png"></a>
+           <a href="/views/home.ejs" id="homKN" class="fa fa-home fa-2x"></a>
+          </div>
+        <br>
+        <div>
+          <div class="mileuKN">
+            <div class="MNKN">
+                <a href=""><img src="Images/c-est-quoi-une-belle-femme-temoignages (1).jpeg" alt="jpg" id="femmeKN"></a>
+                <div class="nomKN">
+                  <p> nom prenom</p>
+              </div>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+              
+            <br>
+            <br>
+            <div class="pubKN">
+                <div class="IMKN">
+                  <h6>Description</h6>
+                  <a href="post.html"><img  class="image1" src="Images/salon_de_the.jpg" alt="jpg" id="salonKN"></a>
+              </div>
+             <br>
+              <div class="ICOKN">
+                  <div><button onclick="clickCounter()" class="buttonKN" type="button"><i class="fa fa-thumbs-up"><p>j'aime</p></i></button></div>
+                  <div id="resultKN"></div>
+                  <div><button onclick="discounter()" class="buttonKN" type="button"><i class="fa fa-thumbs-down"><p>je n'aime pas</p></i></button></div>
+                  <div id="result1KN"></div>
+              </div>  
+            </div>
+            <br>
+            <br>
+            <div>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Mettre votre commentaire" autofocus>
+           </div>
+           <div>
+              <input type="submit" value="Publier" id="publierKN"/><br>
+          </div>
+          <div>
+            <br>
+            <p class="coorKN"> nom prenom </p>
+            <p class="commKN"> commentaire</p>
+            <p id="dKN"></p><NOBR>
+              <p id="monthKN"></p>
+              <p id="yearKN"></p></NOBR>
+              <p id="timeKN"> </p>
+          </div>
+        </section>
+</body>
+</html>
